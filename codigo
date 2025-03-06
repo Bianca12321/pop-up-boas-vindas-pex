@@ -1,0 +1,12 @@
+<div id="customPopup" style="display:none; position:fixed; top:30%; left:30%; width:40%; padding:20px; background:#fff; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.5); z-index:1000;">
+  <h2>Seja bem vindo à página do Programa de Excelência da Indústria!</h2>
+  <p>Nesta página, você encontra as páginas dos programas de excelência dos nossos parceiros, onde você terá acesso à descrição do programa, pastas de evidência, documentos, resultados e muito mais!</p>
+  <button onclick="document.getElementById('customPopup').style.display='none'">Fechar</button>
+</div>
+<script>
+  window.onload = function() {
+    setTimeout(function() {
+      document.getElementById('customPopup').style.display = 'block';
+    }, 2000);
+  };
+</script>
